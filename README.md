@@ -7,7 +7,6 @@ This is a simple shell program created as an introduction to operating system pr
     *   'cd':  Change the current working directory.
     *   'exit':  Terminate the shell.
 *   **Logging:**  All commands are logged to a file for debugging purposes.
-<br/><br/>
 
 ## Getting Started
 
@@ -15,7 +14,6 @@ This is a simple shell program created as an introduction to operating system pr
 
 *   C compiler
 *   Make
-<br/><br/>
 
 ### Building the Project
 
@@ -35,7 +33,6 @@ This is a simple shell program created as an introduction to operating system pr
     ```bash
     make
     ```
-<br/><br/>
 
 ### Usage
 
@@ -43,19 +40,16 @@ To run the shell, execute the following command:
 ```bash
 make run
 ```
-<br/><br/>
 
 To view the log file in real-time, open a new terminal:
 ```bash
 make logs
 ```
-<br/><br/>
 
 To clean up build files:
 ```bash
 make clean
 ```
-<br/><br/>
 
 ## Project Structure
 ```
@@ -82,8 +76,8 @@ simple-shell/
 ## Build Artifacts
 
 build/
-*.o
-*.out
+*.o <br/>
+*.out <br/>
 
 ## Log Files
 
