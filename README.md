@@ -20,45 +20,45 @@ This is a simple shell program created as an introduction to operating system pr
 ### Building the Project
 
 1.  **Clone the repository:**
-    '''bash
+    ```bash
     git clone https://github.com/radixon/simple-shell.git
     cd  simple-shell
-    '''
+    ```
 
 2.  **Initialize the directory structure:**
     Run if clone project structure does not have directories
-    '''bash
+    ```bash
     make setup
-    '''
+    ```
 
 3.  **Build Project:**
-    '''bash
+    ```bash
     make
-    '''
+    ```
 <br/><br/>
 
 ### Usage
 
 To run the shell, execute the following command:
-'''bash
+```bash
 make run
-'''
+```
 <br/><br/>
 
 To view the log file in real-time, open a new terminal:
-'''bash
+```bash
 make logs
-'''
+```
 <br/><br/>
 
 To clean up build files:
-'''bash
+```bash
 make clean
-'''
+```
 <br/><br/>
 
 ## Project Structure
-'''
+```
 simple-shell/
 ├── .gitignore
 ├── CMakeLists.text
@@ -70,7 +70,7 @@ simple-shell/
 |   └── shell.h
 ├── log/
 |   └── shell.log
-'''
+```
 
 *   src/:   Source code files.
 *   include/:   Header files.
